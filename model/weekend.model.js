@@ -2,7 +2,7 @@ function isWeekend (n) {
     var d = new Date();
     var n = d.getDay();
 
-    if (n == "Saturday" || n == "Sunday"){
+    if (n == 6 || n == 0){
         return true;
     } else {
         return false;

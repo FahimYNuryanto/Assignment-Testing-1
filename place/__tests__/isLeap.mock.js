@@ -4,7 +4,7 @@ const dayHandler = require('../math');
 test('2020-06-10', async () => {
     jest
         .useFakeTimers()
-        .setSystemTime(new Date('2022-06-10'));
+        .setSystemTime(new Date('2020-06-10'));
     const request = httpMocks.createRequest({
         method: 'GET',
         url: '/is-weekend',
